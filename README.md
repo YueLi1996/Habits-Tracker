@@ -38,18 +38,16 @@ An app that keeps track of your habits. A habit could be a task you want to have
 
 ### 2. Screen Archetypes
 
-* Login 
-* Register - User signs up or logs into their account
+* Login - User signs up or logs into their account
    * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to be properly matched with another person. 
-   * ...
-* Messaging Screen - Chat for users to communicate (direct 1-on-1)
-   * Upon selecting music choice users matched and message screen opens
-* Profile Screen 
-   * Allows user to upload a photo and fill in information that is interesting to them and others
-* Song Selection Screen.
-   * Allows user to be able to choose their desired song, artist, genre of preference and begin listening and interacting with others.
+* Compose Screen
+   * Create new tasks
+   * Update tasks
+* Home Screen
+   * lists out the tasks
+   * delete tasks
 * Settings Screen
-   * Lets people change language, and app notification settings.
+   * app notification settings.
 
 ### 3. Navigation
 
