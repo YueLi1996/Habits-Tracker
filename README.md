@@ -53,19 +53,19 @@ An app that keeps track of your habits. A habit could be a task you want to have
 
 **Tab Navigation** (Tab to Screen)
 
-* Music selection
-* Profile
+* Habit Dashboard
+* Compose habits
 * Settings
 
 Optional:
-* Music/Encounter Queue
-* Discover (Top Choices)
+* Habit Analytics
 
 **Flow Navigation** (Screen to Screen)
 * Forced Log-in -> Account creation if no log in is available
-* Music Selection (Or Queue if Optional) -> Jumps to Chat
-* Profile -> Text field to be modified. 
+* Habit Dashboard -> Displays habits and compose new habit
+* Compose habits -> Text field to be modified for task and recurring time schedule selection. 
 * Settings -> Toggle settings
+
 
 ## Wireframes
 <img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
