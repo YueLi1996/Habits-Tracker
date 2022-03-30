@@ -26,7 +26,7 @@ Tracks what music an individual listens to, and pairs them with others based on 
 **Required Must-have Stories**
 
 * User has their own account which tracks their habits
-* User can create new habits
+* User can create new habits, a task item they wish to complete on a set schedule
 * User can view all previously created habits
 * User can confirm they completed a habit for the day
 * Settings (Accesibility, Notification, General, etc.)
