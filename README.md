@@ -1,7 +1,7 @@
 Unit 8: Group Milestone - README Example
 ===
 
-# TUNIN
+# Habits Tracker
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -10,16 +10,15 @@ Unit 8: Group Milestone - README Example
 
 ## Overview
 ### Description
-Tracks what music an individual listens to, and pairs them with others based on that music. Could be potentially used as a dating app, or just meeting new friends with similar music tastes.
+An app that keeps track of your habits. A habit could be a task you want to have reminders for so that you do it daily or x amount of times. A thing like drinking water or taking breaks at certain times.
 
 ### App Evaluation
-- **Category:** Social Networking / Music
-- **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer, such as tinder or other similar apps. Functionality wouldn't be limited to mobile devices, however mobile version could potentially have more features.
-- **Story:** Analyzes users music choices, and connects them to other users with similar choices. The user can then decide to message this person and befriend them if wanted.
-- **Market:** Any individual could choose to use this app, and to keep it a safe environment, people would be organized into age groups.
-- **Habit:** This app could be used as often or unoften as the user wanted depending on how deep their social life is, and what exactly they're looking for.
-- **Scope:** First we would start with pairing people based on music taste, then perhaps this could evolve into a music sharing application as well to broaden its usage. Large potential for use with spotify, apple music, or other music streaming applications.
-
+- **Category:** Productivity
+- **Mobile:** This app would be primarily developed for mobile however it could be equally used on a computer. The functionality could be shared between the mobile and computer devices.
+- **Story:** A user creates a few habits they want to keep track of which the app will remind and enables the user to keep updating the records of doing the habit and repeats for x number of days chosen by the user.
+- **Market:** Any individual can choose to use this app.
+- **Habit:** This app can be used as daily as the user wants depending on their use cases.
+- **Scope:** First get started by having the user be able to track a habit through daily reminders based on the user’s preferences. Then having them be able to input more habits which could then be paired into sections of habits to notify them all at once instead of individually.
 ## Product Spec
 ### 1. User Stories (Required and Optional)
 
