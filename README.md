@@ -1,4 +1,4 @@
-Unit 8: Group Milestone - README Example
+Unit 8: Group Milestone - README
 ===
 
 # Habits Tracker
