@@ -25,19 +25,17 @@ Tracks what music an individual listens to, and pairs them with others based on 
 
 **Required Must-have Stories**
 
-* User logs in to access previous chats and preference settings
-* User picks what their favorite artist/genre/etc. (Think Spotify interface)
-* Matches have a chat window to get to know each other, with the ability to skip music and unmatch (Tinder Style).
-* Profile pages for each user
+* User has their own account which tracks their habits
+* User can create new habits
+* User can view all previously created habits
+* User can confirm they completed a habit for the day
 * Settings (Accesibility, Notification, General, etc.)
 
 **Optional Nice-to-have Stories**
 
-* Log of past songs/people with album art covers matching
-* Page of most played songs (i.e. songs that most users are connecting through)
-* Profile Add-On: Top music choices, etc.
-* Optional Shuffle Button (i.e. random encounter/random song)
-* Listening/Encounter Queue
+* User can look at a visualization dashboard for each habit
+* User can see a calendar of previously completed habits
+* User can opt-in to receive notification to complete a habit
 
 ### 2. Screen Archetypes
 
