@@ -75,3 +75,30 @@ Optional:
 
 ### [BONUS] Interactive Prototype
 
+### Schema
+## Models
+User
+| Property | Type | Description |
+| --- | --- | --- |
+| objectId | String | unique id for user (default) |
+| createdAt | DateTime | date when user is created (default field) |
+| updatedAt | DateTime | date when user is last updated (default field) |
+| username | String | login username |
+| password | String | login password |
+| profilePicture | File | profile picture of user |
+
+Habit
+| Property | Type | Description |
+| --- | --- | --- |
+| objectId | String | unique id for habit (default) |
+| createdAt | DateTime | date when user is created (default field) |
+| updatedAt | DateTime | date when user is last updated (default field) |
+| user | Object | user who is keeping track of habit |
+| name | String | habit name |
+| description | String | habit description |
+| repeatDays | Int | frequency every n number of days |
+| repeatTime | Int | frequency every n times per day |
+| startTime | Int | start time for period of repeat notifications |
+| endTime | Int | end time for period of repeat notifications |
+| completed | Int | number of times habit has been completed |
+
