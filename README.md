@@ -85,7 +85,6 @@ User
 | updatedAt | DateTime | date when user is last updated (default field) |
 | username | String | login username |
 | password | String | login password |
-| profilePicture | File | profile picture of user |
 
 Habit
 | Property | Type | Description |
@@ -100,5 +99,6 @@ Habit
 | repeatTime | Int | frequency every n times per day |
 | startTime | Int | start time for period of repeat notifications |
 | endTime | Int | end time for period of repeat notifications |
+| progressSoFar | Int | number of repeatTime completed |
 | completed | Int | number of times habit has been completed |
 
