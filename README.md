@@ -68,10 +68,9 @@ Optional:
 
 
 ## Wireframes
-
+<img src="https://github.com/YueLi1996/Habits-Tracker/blob/bf938a8d460bee552b34f2db58bbab0031d19fe5/HabitTrackerWireFrame.png" width="500">
 
 ### [BONUS] Digital Wireframes & Mockups
-
 
 ### [BONUS] Interactive Prototype
 
