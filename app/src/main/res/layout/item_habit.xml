@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/habitPicture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_margin="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/habitTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drink Water"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toEndOf="@+id/habitPicture"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/habitDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:text="I want to drink more water everyday"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/habitTitle"
+        app:layout_constraintTop_toBottomOf="@+id/habitTitle" />
+
+    <TextView
+        android:id="@+id/habitDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7 Times from 8:00am to 9:00pm"
+        app:layout_constraintStart_toStartOf="@+id/habitDescription"
+        app:layout_constraintTop_toBottomOf="@+id/habitDescription" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
