@@ -24,17 +24,17 @@ An app that keeps track of your habits. A habit could be a task you want to have
 
 **Required Must-have Stories**
 
-* User has their own account which tracks their habits
-* User can create new habits, a task item they wish to complete on a set schedule
-* User can view all previously created habits
-* User can confirm they completed a habit for the day
-* Settings (Accesibility, Notification, General, etc.)
+* [ ] User has their own account which tracks their habits
+* [ ] User can create new habits, a task item they wish to complete on a set schedule
+* [ ] User can view all previously created habits
+* [ ] User can confirm they completed a habit for the day
+* [ ] Settings (Accesibility, Notification, General, etc.)
 
 **Optional Nice-to-have Stories**
 
-* User can look at a visualization dashboard for each habit
-* User can see a calendar of previously completed habits
-* User can opt-in to receive notification to complete a habit
+* [ ] User can look at a visualization dashboard for each habit
+* [ ] User can see a calendar of previously completed habits
+* [ ] User can opt-in to receive notification to complete a habit
 
 ### 2. Screen Archetypes
 
@@ -101,3 +101,24 @@ Habit
 | progressSoFar | Int | number of repeatTime completed |
 | completed | Int | number of times habit has been completed |
 
+### App Walkthough GIF
+
+<img src="https://github.com/YueLi1996/Habits-Tracker/blob/f8b5b47fb3e876dbeb1eeb647c00105529e4f786/HabitsTrackerWT.gif" width=300><br>
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## License
+
+    Copyright [2021] [HabitsTrackerTeam]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
