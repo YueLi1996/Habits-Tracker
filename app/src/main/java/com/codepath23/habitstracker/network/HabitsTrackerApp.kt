@@ -1,6 +1,7 @@
 package com.codepath23.habitstracker.network
 
 import android.app.Application
+import com.codepath23.habitstracker.R
 import com.codepath23.habitstracker.model.Habit
 import com.parse.Parse
 import com.parse.ParseObject
@@ -13,9 +14,9 @@ class HabitsTrackerApp : Application() {
 
         Parse.initialize(
             Parse.Configuration.Builder(this)
-                .applicationId("NGh8lwSUJozGeSbrONaYjWIaq9jcJPZDmEgY7DRI")
-                .clientKey("vRXtocGXXtWqPgab4yMuV7xXy87YYTbbFgLaPgh3")
-                .server("https://parseapi.back4app.com")
+                .applicationId(getString(R.string.back4app_app_id))
+                .clientKey(getString(R.string.back4app_client_key))
+                .server(getString(R.string.back4app_server_url))
                 .build()
         )
     }
