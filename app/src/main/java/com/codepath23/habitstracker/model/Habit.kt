@@ -79,6 +79,11 @@ class Habit : ParseObject() {
         return getInt(KEY_COMPLETED)
     }
 
+    fun totalFrequency(): String? {
+        return "Every ${getFrequencyDay().toString()} day(s) for ${getFrequencyTime()} " +
+                "time(s) from ${getStartTime()} to ${getEndTime()}"
+    }
+
     companion object {
         const val KEY_USER = "user"
         const val KEY_NAME = "name"

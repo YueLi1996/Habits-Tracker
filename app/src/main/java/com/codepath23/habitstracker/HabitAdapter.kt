@@ -7,14 +7,27 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.codepath23.habitstracker.model.Habit
 
-class HabitAdapter(val context: Context) : RecyclerView.Adapter<HabitAdapter.ViewHolder>() {
+class HabitAdapter(val context: Context, val habits: MutableList<Habit>) : RecyclerView.Adapter<HabitAdapter.ViewHolder>() {
     class ViewHolder(iView: View) : RecyclerView.ViewHolder(iView) {
         lateinit var ivHabitPicture: ImageView
+        lateinit var tvHabitTitle: TextView
         lateinit var tvHabitDescription: TextView
         lateinit var tvHabitDuration: TextView
 
+        init {
+            ivHabitPicture = iView.findViewById(R.id.habitPicture)
+            tvHabitTitle = iView.findViewById(R.id.habitTitle)
+            tvHabitDescription = iView.findViewById(R.id.habitDescription)
+            tvHabitDuration = iView.findViewById(R.id.habitDuration)
+        }
 
+        fun bind(habit: Habit) {
+            tvHabitTitle.text = habit.getName()
+            tvHabitDescription.text = habit.getDescription()
+            tvHabitDuration.text = habit.totalFrequency()
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HabitAdapter.ViewHolder {
@@ -23,18 +36,21 @@ class HabitAdapter(val context: Context) : RecyclerView.Adapter<HabitAdapter.Vie
     }
 
     override fun onBindViewHolder(holder: HabitAdapter.ViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        val habit = habits[position]
+        holder.bind(habit)
     }
 
     override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+        return habits.size
     }
 
     fun clear() {
-        TODO("not implemented yet")
+        habits.clear()
+        notifyDataSetChanged()
     }
 
-    fun addAll(newHabits: List<Int>) {
-        TODO("not implemented yet")
+    fun addAll(newHabits: List<Habit>) {
+        habits.addAll(newHabits)
+        notifyDataSetChanged()
     }
 }
