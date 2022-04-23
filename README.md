@@ -24,17 +24,17 @@ An app that keeps track of your habits. A habit could be a task you want to have
 
 **Required Must-have Stories**
 
-*[x] User has their own account which tracks their habits
-*[] User can create new habits, a task item they wish to complete on a set schedule
-*[x] User can view all previously created habits
-*[] User can confirm they completed a habit for the day
-*[] Settings (Accesibility, Notification, General, etc.)
+-[x] User has their own account which tracks their habits
+-[] User can create new habits, a task item they wish to complete on a set schedule
+-[x] User can view all previously created habits
+-[] User can confirm they completed a habit for the day
+-[] Settings (Accesibility, Notification, General, etc.)
 
 **Optional Nice-to-have Stories**
 
-* User can look at a visualization dashboard for each habit
-* User can see a calendar of previously completed habits
-* User can opt-in to receive notification to complete a habit
+-[] User can look at a visualization dashboard for each habit
+-[] User can see a calendar of previously completed habits
+-[] User can opt-in to receive notification to complete a habit
 
 ### 2. Screen Archetypes
 
