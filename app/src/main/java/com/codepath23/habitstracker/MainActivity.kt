@@ -2,6 +2,7 @@ package com.codepath23.habitstracker
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.codepath23.habitstracker.fragments.HomeFragment
@@ -23,9 +24,11 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.action_compose -> {
                     fragment = null
+                    Toast.makeText(this, "Compose TODO", Toast.LENGTH_SHORT).show()
                 }
                 R.id.action_profile -> {
                     fragment = null
+                    Toast.makeText(this, "Profile TODO}", Toast.LENGTH_SHORT).show()
                 }
             }
 

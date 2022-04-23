@@ -31,7 +31,7 @@ class HomeFragment : Fragment() {
         requireActivity().title = "HabitsTracker"
 
         rvHabits = view.findViewById(R.id.habitsRecyclerView)
-        adapter = HabitAdapter(requireContext(), habits)
+        adapter = HabitAdapter(requireContext(), habits) { position -> onHabitItemClick(position) }
         rvHabits.adapter = adapter
         rvHabits.layoutManager = LinearLayoutManager(requireContext())
 
@@ -56,6 +56,11 @@ class HomeFragment : Fragment() {
                 }
             }
         }
+    }
+
+    private fun onHabitItemClick(position: Int) {
+        habits.removeAt(position)
+        adapter.notifyItemRemoved(position)
     }
 
     companion object {

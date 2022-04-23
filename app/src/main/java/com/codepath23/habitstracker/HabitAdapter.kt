@@ -9,8 +9,10 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.codepath23.habitstracker.model.Habit
 
-class HabitAdapter(val context: Context, val habits: MutableList<Habit>) : RecyclerView.Adapter<HabitAdapter.ViewHolder>() {
-    class ViewHolder(iView: View) : RecyclerView.ViewHolder(iView) {
+class HabitAdapter(val context: Context,
+                   val habits: MutableList<Habit>,
+                   private val onItemClicked: (position: Int) -> Unit) : RecyclerView.Adapter<HabitAdapter.ViewHolder>() {
+    inner class ViewHolder(iView: View) : RecyclerView.ViewHolder(iView), View.OnLongClickListener {
         lateinit var ivHabitPicture: ImageView
         lateinit var tvHabitTitle: TextView
         lateinit var tvHabitDescription: TextView
@@ -21,12 +23,19 @@ class HabitAdapter(val context: Context, val habits: MutableList<Habit>) : Recyc
             tvHabitTitle = iView.findViewById(R.id.habitTitle)
             tvHabitDescription = iView.findViewById(R.id.habitDescription)
             tvHabitDuration = iView.findViewById(R.id.habitDuration)
+            iView.setOnLongClickListener(this)
         }
 
         fun bind(habit: Habit) {
             tvHabitTitle.text = habit.getName()
             tvHabitDescription.text = habit.getDescription()
             tvHabitDuration.text = habit.totalFrequency()
+        }
+
+        override fun onLongClick(v: View): Boolean {
+            val position = adapterPosition
+            onItemClicked(position)
+            return true
         }
     }
 
@@ -53,4 +62,5 @@ class HabitAdapter(val context: Context, val habits: MutableList<Habit>) : Recyc
         habits.addAll(newHabits)
         notifyDataSetChanged()
     }
+
 }
