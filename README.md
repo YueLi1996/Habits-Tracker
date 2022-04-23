@@ -105,7 +105,7 @@ Habit
 
 <img src="https://github.com/YueLi1996/Habits-Tracker/blob/f8b5b47fb3e876dbeb1eeb647c00105529e4f786/HabitsTrackerWT.gif" width=300><br>
 
-<img src="https://github.com/YueLi1996/Habits-Tracker/blob/f8b5b47fb3e876dbeb1eeb647c00105529e4f786/HabitsTrackerWT2.gif" width=300><br>
+<img src="https://github.com/YueLi1996/Habits-Tracker/blob/fd32ee5606b15a2c82e1dce1c491e515832cffdf/HabitsTrackerWT2.gif" width=300><br>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
