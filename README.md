@@ -24,11 +24,11 @@ An app that keeps track of your habits. A habit could be a task you want to have
 
 **Required Must-have Stories**
 
-* User has their own account which tracks their habits
-* User can create new habits, a task item they wish to complete on a set schedule
-* User can view all previously created habits
-* User can confirm they completed a habit for the day
-* Settings (Accesibility, Notification, General, etc.)
+*[x] User has their own account which tracks their habits
+*[] User can create new habits, a task item they wish to complete on a set schedule
+*[x] User can view all previously created habits
+*[] User can confirm they completed a habit for the day
+*[] Settings (Accesibility, Notification, General, etc.)
 
 **Optional Nice-to-have Stories**
 
